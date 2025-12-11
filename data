@@ -1,1 +1,21 @@
+The LendingClub dataset is very large and is not included in this repository.
 
+To run this project:
+
+Download the dataset from Kaggle:
+“LendingClub Loan Data (Accepted 2007–2018)”
+
+Place the file here:
+
+data/raw/accepted_2007_to_2018.csv
+
+Run the preprocessing notebook:
+
+notebooks/01_eda_preprocessing.ipynb
+
+
+This will automatically generate:
+
+cleaned datasets
+
+Preprocessed train/validation/test splits
